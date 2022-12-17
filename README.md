@@ -19,7 +19,7 @@ sudo yum install ansible
    uncomment host_key_checking=FALSE
 
 
---- create a keypair on centos hostmachine to import a keypair named raman-import on aws ohio region to authenticate :
+--- create a keypair on centos hostmachine to import a keypair named cicd-import on aws ohio region to authenticate :
 ssh-keygen -t rsa
 -- import the public key to mumbai in creation cicd-import key
 

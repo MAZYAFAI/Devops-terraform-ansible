@@ -21,7 +21,7 @@ sudo yum install ansible
 
 --- create a keypair on centos hostmachine to import a keypair named raman-import on aws ohio region to authenticate :
 ssh-keygen -t rsa
--- import the public key to ohio in creation raman-import key
+-- import the public key to mumbai in creation cicd-import key
 
 sripts for jenkins :
 
